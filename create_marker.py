@@ -1,0 +1,40 @@
+import cv2
+import cv2.aruco as aruco
+
+dict = aruco.getPredefinedDictionary(aruco.DICT_4X4_50)
+
+img1 = aruco.drawMarker(dict, 1, 200)
+img2 = aruco.drawMarker(dict, 2, 200)
+img3 = aruco.drawMarker(dict, 3, 200)
+img4 = aruco.drawMarker(dict, 4, 200)
+img5 = aruco.drawMarker(dict, 5, 200)
+img6 = aruco.drawMarker(dict, 6, 200)
+img7 = aruco.drawMarker(dict, 7, 200)
+img8 = aruco.drawMarker(dict, 8, 200)
+img9 = aruco.drawMarker(dict, 9, 200)
+img10 = aruco.drawMarker(dict, 10, 200)
+img11 = aruco.drawMarker(dict, 11, 200)
+img12 = aruco.drawMarker(dict, 12, 200)
+
+img30 = aruco.drawMarker(dict, 30, 200)
+img31 = aruco.drawMarker(dict, 31, 200)
+img32 = aruco.drawMarker(dict, 32, 200)
+img33 = aruco.drawMarker(dict, 33, 200)
+
+cv2.imwrite('4x4_50_1.png', img1)
+cv2.imwrite('4x4_50_2.png', img2)
+cv2.imwrite('4x4_50_3.png', img3)
+cv2.imwrite('4x4_50_4.png', img4)
+cv2.imwrite('4x4_50_5.png', img5)
+cv2.imwrite('4x4_50_6.png', img6)
+cv2.imwrite('4x4_50_7.png', img7)
+cv2.imwrite('4x4_50_8.png', img8)
+cv2.imwrite('4x4_50_9.png', img9)
+cv2.imwrite('4x4_50_10.png', img10)
+cv2.imwrite('4x4_50_11.png', img11)
+cv2.imwrite('4x4_50_12.png', img12)
+
+cv2.imwrite('4x4_50_30.png', img30)
+cv2.imwrite('4x4_50_31.png', img31)
+cv2.imwrite('4x4_50_32.png', img32)
+cv2.imwrite('4x4_50_33.png', img33)
